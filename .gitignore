@@ -1,0 +1,51 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/ProsdevAssignment/v15/.suo
+.vs/ProsdevAssignment/v15/Browse.VC.db
+.vs/ProsdevAssignment/v15/Browse.VC.opendb
+.vs/ProsdevAssignment/v15/ipch/AutoPCH/377b3eae176ac0c2/STANDARDFILESYSTEM.ipch
+.vs/ProsdevAssignment/v15/ipch/AutoPCH/5819a391de429148/ARCHIVE.ipch
+.vs/ProsdevAssignment/v15/ipch/AutoPCH/b4db9e26d19bdb69/SAMPLEOBJECT.ipch
+.vs/ProsdevAssignment/v15/ipch/AutoPCH/bedd4285b97225d0/PROSDEVASSIGNMENT.ipch
+Debug/ProsdevA.8152956D.tlog/CL.command.1.tlog
+Debug/ProsdevA.8152956D.tlog/CL.read.1.tlog
+Debug/ProsdevA.8152956D.tlog/CL.write.1.tlog
+Debug/ProsdevA.8152956D.tlog/link.command.1.tlog
+Debug/ProsdevA.8152956D.tlog/link.read.1.tlog
+Debug/ProsdevA.8152956D.tlog/link.write.1.tlog
+Debug/ProsdevA.8152956D.tlog/ProsdevAssignment.lastbuildstate
+Debug/ProsdevAssignment.ilk
+Debug/ProsdevAssignment.log
+Debug/ProsdevAssignment.pdb
+Debug/vc141.idb
+Debug/vc141.pdb
