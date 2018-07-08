@@ -47,7 +47,7 @@ private:
 
 // BEGIN: Custom Code
 public:
-
+	void ParseObject(); //ano ilalagay dito, ReflectionObject()? confusion i hate c++ 
 	void Save(StandardFileSystem fs, const char * fileName);
 	void Load(StandardFileSystem fs, const char * fileName);
 // END: Custom Code
