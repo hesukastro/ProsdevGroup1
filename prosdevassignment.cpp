@@ -21,7 +21,7 @@ void fileSystemExample()
 {
 	std::cout << "FILE SYSTEM EXAMPLE" << std::endl;
 	std::cout << "======================================================" << std::endl;
-	StandardFileSystem* fs = new StandardFileSystem("D:\Data\Documents\GitHub\pdev");
+	StandardFileSystem* fs = new StandardFileSystem("./");
 
 	// If newfile.txt exists, delete it
 	if (fs->fileExists("newfile.txt"))
@@ -143,8 +143,8 @@ void reflectionExample()
 	// Set variables using accessors
 	obj.setMemberValue("MyIntVariable", 12);
 	obj.setMemberValue("MyBoolVariable", false);
-	obj.setMemberValue("MyFloatVariable", 23.0f);
-	obj.setMemberValue("MyDoubleVariable", 10.0);
+	obj.setMemberValue("MyFloatVariable", 23.12f);
+	obj.setMemberValue("MyDoubleVariable", 10.21);
 
 	int tempArray[12];
 	for (int i = 0; i < 12; i++)
@@ -156,7 +156,7 @@ void reflectionExample()
 
 	// Test Save
 	std::cout << "Testing Save..." << std::endl;
-	StandardFileSystem fs("D:\Data\Documents\GitHub\pdev");
+	StandardFileSystem fs("./");
 	obj.Save(fs, "sampleObj.dat");
 
 	// Test Load
